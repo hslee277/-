@@ -1,4 +1,5 @@
-# -flowchart LR
+```mermaid
+flowchart LR
 subgraph Channel[Channel]
 AW[AWGN]-->SNR[SNR]
 DS[지연확산 τ_rms]-->Bc[상관대역폭 B_c]
